@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index",
-    "dev": "tsc"
+    "dev": "tsc",
+    "format": "prettier --write 'algorithms/**' 'resources/**' 'playground/**'"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
     "dotenv": "^10.0.0",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
   }
 }
