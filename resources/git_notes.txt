@@ -1,0 +1,5 @@
+## Amend Commits
+
+git commit --amend --date="2022-03-05"
+git commit --date="10 day ago" -m "Your commit message" 
+
